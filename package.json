@@ -11,8 +11,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "sonar": "node sonar-project.js",
-    "test": "mocha",
-    "coverage": "nyc npm run test",
+    "test": "CI=true react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
