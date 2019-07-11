@@ -12,7 +12,7 @@
     "build": "react-scripts build",
     "sonar": "node sonar-project.js",
     "test": "mocha",
-    "coverage": "nyc npm run test"
+    "coverage": "nyc npm run test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
